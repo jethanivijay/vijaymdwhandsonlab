@@ -2,10 +2,12 @@
 ## **Hands on Lab for Modern DataWarehouse**
 
 ## **Overview** 
-- This Lab is Intended to do end to end Implementation of Modern Data Warehouse Solution using Azure DevOps.
-- CI/CD Pipelines will be setup as Part of Implementation process to take care of MDW Architecture
-- We will Build and Deploy Modern DataWarehouse Artifacts from Dev to STG and Prod Environments.
-- Integration Testing to test functionality
+- This Lab is Intended to do end to end Implementation of Modern Data Warehouse Solution using Azure DevOps
+- Service Implementation can be reused for any MDW customer sceanarios
+- Azure DevOps Pipelines are used for MDW Architecture Service Deployments 
+- MDW Develop and Intgrate Aritifacts related to Synapse Workspace are uploaded as part of Implementation process
+- Azure DevOps Build and Release pipelines will replicate Dev Configuration to STG and Prod Environments
+- Functionality testing is carried out with Integration Testing Pipeline
 
 
 ## **Solution Implementation Architecture**
