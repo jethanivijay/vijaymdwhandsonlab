@@ -2,8 +2,6 @@
 
 ## **A. Get ready with Prerequiste for Installation**
 
-## **Prerequiste for Installation**
-
 1. **Azure DevOps Organization** with Permission to run Pipelines
 2. **Azure Subscription** to create/host MDW services with **Owner role** on that subscription
 3. Create **MDW Project** in Azure DevOps
@@ -21,6 +19,11 @@
 3. **Create Azure DevOps Pipelines** for Implementation based on Instructions
 4. **Define Required Variables** within Azure Devops Pipeline
 5. **Pass Secrets using Environment Variables** in Tasks for Pipelines
+
+
+### Troubelshooting
+1. If After running pipeline If you are getting  **No hosted parallelism has been purchased or granted**
+   Please fill form at https://aka.ms/azpipelines-parallelism-request
 
 
 
