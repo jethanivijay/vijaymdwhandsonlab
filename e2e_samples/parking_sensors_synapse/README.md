@@ -24,8 +24,8 @@
 
 
 ### Troubelshooting
-1. If After running pipeline If you are getting  **No hosted parallelism has been purchased or granted**
-   Please fill form at https://aka.ms/azpipelines-parallelism-request
+1. If after running pipeline you are getting  **No hosted parallelism has been purchased or granted**
+   Please fill form at https://aka.ms/azpipelines-parallelism-request it will take couple of days for approval
 
 
 ## **Solution Implementation Architecture**
