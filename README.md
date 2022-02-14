@@ -9,7 +9,7 @@
 
 
 ## **Solution Implementation Architecture**
-![Architecture](CI_CD_process_sequence.png)
+![Architecture](CI_CD_process_sequence.PNG)
 
 
 ## **Prerequiste for Installation**
