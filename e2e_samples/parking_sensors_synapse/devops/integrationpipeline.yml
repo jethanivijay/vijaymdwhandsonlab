@@ -1,0 +1,17 @@
+# Integration Pipeline
+
+trigger: none
+
+pr: none
+   
+stages:
+
+- stage: Integratonforstg
+  displayName: 'Deploy to Stage'
+  variables:
+  - group: vijaymdwsynapse-release-stg
+  - group: vijaymdwsynapse-secrets-stg
+  - group: vijaymdwsynapse-integration-test
+  jobs: 
+  # Integration tests
+  - template: templates/jobs/integration-tests-job.yml
