@@ -1,4 +1,4 @@
-# Hands on Labs for Modern DataWarehouse Flow
+# Hands on Labs Implementation Flow
 
 ## A. Get ready with Prerequiste for Installation
 
