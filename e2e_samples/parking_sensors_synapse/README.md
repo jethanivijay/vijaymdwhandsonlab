@@ -1,10 +1,27 @@
-# **Hands on Lab for Modern DataWarehouse**
+# **Flow of Hands on Lab for Modern DataWarehouse**
 
-## **Overview** 
-- This Lab is Intended to do end to end Implementation of Modern Data Warehouse Solution using Azure DevOps.
-- CI/CD Pipelines will be setup as Part of Implementation process to take care of MDW Architecture
-- We will Build and Deploy Modern DataWarehouse Artifacts from Dev to STG and Prod Environments.
-- Integration Testing to test functionality
+## **A. Get ready with Prerequiste for Installation**
+
+## **Prerequiste for Installation**
+
+1. **Azure DevOps Organization** with Permission to run Pipelines
+2. **Azure Subscription** to create/host MDW services with **Owner role** on that subscription
+3. Create **MDW Project** in Azure DevOps
+4. Create **Azure DevOps Service principal from Azure DevOps Project Settings**
+5. Provide your **Azure DevOps Service principal Owner permission** on Azure subscription
+6. Provide your **Azure Login Account** and **Azure DevOps Service Principal - Storage Data Blob Contributor role** on your subscription
+7. Create **service principal for Integration Testing**
+8. Azure DevOps **Personal Token** for Azure DevOps related tasks
+
+
+## **B. Create Azure DevOps Pipeline for MDW Service Implementation**
+
+1. **Navigate through Code** to understand available resources
+2. **Clone Github Reposistory** to your Azure DevOps Project**
+3. **Create Azure DevOps Pipelines** for Implementation based on Instructions
+4. **Define Required Variables** within Azure Devops Pipeline
+5. **Pass Secrets using Environment Variables** in Tasks for Pipelines
+
 
 
 ## **Solution Implementation Architecture**
