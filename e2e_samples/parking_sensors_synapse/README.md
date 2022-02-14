@@ -1,6 +1,6 @@
 # Hands on Labs for Modern DataWarehouse Flow
 
-## **A. Get ready with Prerequiste for Installation**
+## A. Get ready with Prerequiste for Installation
 
 1. **Azure DevOps Organization** with Permission to run Pipelines
 2. **Azure Subscription** to create/host MDW services with **Owner role** on that subscription
@@ -12,19 +12,20 @@
 8. Azure DevOps **Personal Token** for Azure DevOps related tasks
 
 
-## **B. Create Azure DevOps Pipeline for MDW Service Implementation**
+## B. Create Azure DevOps Pipeline for MDW Service Implementation
 
 1. **Navigate through Code** to understand available resources
-2. **Clone Github Reposistory** to your Azure DevOps Project**
+2. **Clone Github Reposistory** to your Azure DevOps Project
 3. **Create Azure DevOps Pipelines** for Implementation based on Instructions
 4. **Define Required Variables** within Azure Devops Pipeline
 5. **Pass Secrets using Environment Variables** in Tasks for Pipelines
+6. Implementation can take upto **30 mins for each environment** hence be patient
+7. **Pay attention** to instructions to understand complete process flow of MDW Implementation8. 
 
 
 ### Troubelshooting
 1. If After running pipeline If you are getting  **No hosted parallelism has been purchased or granted**
    Please fill form at https://aka.ms/azpipelines-parallelism-request
-
 
 
 ## **Solution Implementation Architecture**
