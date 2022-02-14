@@ -19,8 +19,8 @@
 3. **Create Azure DevOps Pipelines** for Implementation based on Instructions
 4. **Define Required Variables** within Azure Devops Pipeline
 5. **Pass Secrets using Environment Variables** in Tasks for Pipelines
-6. Implementation can take upto **30 mins for each environment** hence be patient
-7. **Pay attention** to instructions to understand complete process flow of MDW Implementation. 
+6. **Pay attention** to instructions to understand complete process flow of MDW Implementation
+7. Implementation can take upto **30 mins for each environment** hence be patient
 
 
 ### Troubelshooting
