@@ -23,7 +23,7 @@
 7. Implementation can take upto **30 mins for each environment** hence be patient
 
 
-### Troubelshooting
+### Call to Action if you are running Azure DevOps Pipelines first time
 1. If after running pipeline you are getting  **No hosted parallelism has been purchased or granted**
    Please fill form at https://aka.ms/azpipelines-parallelism-request 
 2. Approval process can take up couple of days for approval, we cannot expediate has it requires business justification and your credential verification
