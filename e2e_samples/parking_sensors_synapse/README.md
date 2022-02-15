@@ -20,13 +20,12 @@
 4. **Define Required Variables** within Azure Devops Pipeline
 5. **Pass Secrets using Environment Variables** in Tasks for Pipelines
 6. **Pay attention** to instructions to understand complete process flow of MDW Implementation
-7. Implementation can take upto **30 mins for each environment** hence be patient
 
 
 ### Call to Action if you are running Azure DevOps Pipelines first time
 1. If after running pipeline you are getting  **No hosted parallelism has been purchased or granted**
    Please fill form at https://aka.ms/azpipelines-parallelism-request 
-2. Approval process can take up couple of days for approval, we cannot expediate has it requires business justification and your credential verification
+2. Approval process can take up couple of days, we cannot expediate has it requires business justification and your credential verification
 
 
 ## **Solution Implementation Architecture**
