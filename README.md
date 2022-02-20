@@ -24,3 +24,8 @@
 6. Provide your **Azure Login Account** and **Azure DevOps Service Principal - Storage Data Blob Contributor role** on your subscription
 7. Create **service principal for Integration Testing**
 8. Azure DevOps **Personal Token** for Azure DevOps related tasks
+
+
+## **Post Installation MDW Pipeline Flow**
+
+![MDWPipelineflow](mdwpipelineflow.png)
