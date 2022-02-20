@@ -52,11 +52,11 @@ The configuration pane shows the following Azure DevOps git settings:
 | **Azure DevOps account** | Your Azure Repos organization name. You can locate your Azure Repos organization name at `https://dev.azure.com/<orgname>`. You can [sign in to your Azure Repos organization](https://dev.azure.com/) to access your Azure DevOps  | `<your organization name>` |
 | **ProjectName** | Your Azure Repos project name. You can locate your Azure Repos project name at `https://dev.azure.com/<orgname>/<projectname>`. | `<your Azure Repos project name>` |
 | **RepositoryName** | Your Azure Repos code repository name. Azure Repos projects contain Git repositories to manage your source code as your project grows. You can create a new repository or use an existing repository that's already in your project. | `<your Azure Repos code repository name>` |
-| **Collaboration branch** | Your Azure Repos collaboration branch that is used for publishing. By default, its `master/main`. Change this setting in case you want to publish resources from another branch. You can select existing branches or create new | `master or main`Check your Reposistory |
+| **Collaboration branch** | Your Azure Repos collaboration branch that is used for publishing. By default, its `master/main`. Change this setting in case you want to publish resources from another branch. You can select existing branches or create new | `master or main`Check your Created Reposistory |
 | **Root folder** | Your root folder in your Azure Repos collaboration branch. | `/e2e_samples/parking_sensors_synapse/synapse/workspace` |
 | **Import existing resources to repository** | Specifies whether to import existing resources from the Synapse Studio into an Azure Repos Git repository. Check the box to import your workspace resources (except pools) into the associated Azure DevOps in JSON format. This action exports each resource individually. When this box isn't checked, the existing resources aren't imported. | Checked (default) |
 | **Import resource into this branch** | Select which branch the resources (sql script, notebook, spark job definition, dataset, dataflow etc.) are imported to. | Same as Collobaration branch master or main |
 
-## **Post Installation MDW Pipeline Flow**
+## **MDW Pipeline Flow for Cleanse , Standarize and Transform**
 
 ![MDWPipelineflow](mdwpipelineflow.png)
