@@ -26,6 +26,33 @@
 8. Azure DevOps **Personal Token** for Azure DevOps related tasks
 
 
+## **Post Installation Source Control Integration with Synapse**
+
+## Prerequisites
+Users must have the Azure Contributor (Azure RBAC) or higher role on the Synapse workspace to configure, edit settings and disconnect a Git repository with Synapse. 
+
+## Connect with Azure DevOps Git 
+
+### Azure DevOps Git repository settings
+
+When connecting to your git repository, first select your repository type as Azure DevOps git, and then select one Azure AD tenant from the dropdown list, and click **Continue**.
+
+![Configure the code repository settings](media/connect-with-azuredevops-repo-selected.png)
+
+The configuration pane shows the following Azure DevOps git settings:
+
+| Setting | Description | Value |
+|:--- |:--- |:--- |
+| **Repository Type** | The type of the Azure Repos code repository.<br/> | Azure DevOps Git or GitHub |
+| **Azure Active Directory** | Your Azure AD tenant name. | `<your tenant name>` |
+| **Azure DevOps account** | Your Azure Repos organization name. You can locate your Azure Repos organization name at `https://{organization name}.visualstudio.com`. You can [sign in to your Azure Repos organization](https://www.visualstudio.com/team-services/git/) to access your Visual Studio profile and see your repositories and projects. | `<your organization name>` |
+| **ProjectName** | Your Azure Repos project name. You can locate your Azure Repos project name at `https://{organization name}.visualstudio.com/{project name}`. | `<your Azure Repos project name>` |
+| **RepositoryName** | Your Azure Repos code repository name. Azure Repos projects contain Git repositories to manage your source code as your project grows. You can create a new repository or use an existing repository that's already in your project. | `<your Azure Repos code repository name>` |
+| **Collaboration branch** | Your Azure Repos collaboration branch that is used for publishing. By default, its `master`. Change this setting in case you want to publish resources from another branch. You can select existing branches or create new | `<your collaboration branch name>` |
+| **Root folder** | Your root folder in your Azure Repos collaboration branch. | `<your root folder name>` |
+| **Import existing resources to repository** | Specifies whether to import existing resources from the Synapse Studio into an Azure Repos Git repository. Check the box to import your workspace resources (except pools) into the associated Git repository in JSON format. This action exports each resource individually. When this box isn't checked, the existing resources aren't imported. | Checked (default) |
+| **Import resource into this branch** | Select which branch the resources (sql script, notebook, spark job definition, dataset, dataflow etc.) are imported to.
+
 ## **Post Installation MDW Pipeline Flow**
 
 ![MDWPipelineflow](mdwpipelineflow.png)
